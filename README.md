@@ -32,6 +32,8 @@
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/vH0skdkR/2024-07-10-08-41-32.png' border='0' alt='2024-07-10-08-41-32'/></a>
 <h4>4) Необходимо в командной строке написать: "go get -u github.com/golang-jwt/jwt/v5" для установки библиотеки:</h4>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7LqGnzC1/2024-07-10-10-51-54.png' border='0' alt='2024-07-10-10-51-54'/></a>
+<h4>5)Установить библиотеку при помощи команды: "go get github.com/Knetic/govaluate":</h4>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/5N8wbdL2/2024-07-11-11-25-39.png' border='0' alt='2024-07-11-11-25-39'/></a>
 <br></br>
 <h2>Использованные технологии:</h2>
 <h1 id="section2">Яндекс Почта</h1>
@@ -65,14 +67,18 @@
 <h1 id="section5">Реализация проекта через сайт</h1>
 <h4>Перед началом проекта рекомендуется запустить register.go через Visual Studio Code и forgot.py через PyCharm.</h4>
 <ol>
-  <li>Перейдите на сайт <a href="http://localhost:8080/register">Registration</a> если Вы впервые заходите на сайт:</li>
+  <li>Перейдите на сайт http://localhost:8080/register если Вы впервые заходите на сайт:</li>
   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/rpTkn9yY/2024-07-10-22-40-52.png' border='0' alt='2024-07-10-22-40-52'/></a>
   <h4>Введите адрес электронной почты, пароль, повторите пароль. После регистрации будет выведен JWT Token, а также дальнейшая инструкция</h4>
-  <li>Перейдите на сайт <a href="http://localhost:8080/login">Login in </a>Если у Вас уже есть JWT Token:</li>
+  <li>Перейдите на сайт http://localhost:8080/login если у Вас уже есть JWT Token:</li>
   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Z5Sb2mVc/2024-07-10-22-47-16.png' border='0' alt='2024-07-10-22-47-16'/></a>
   <h4>Введите JWT Token для входа в систему. Также можно создать аккаунт, если у Вас нет аккаунта; восстановить JWT Token</h4>
-  <li>Перейдя на сайт <a href="http://127.0.0.1:5000/forgot">Forgot JWT Token</a> Необходимо ввести адрес электронной почты. Затем программа проверит наличия адреса электронной почты в базе данных. После нажатия кнопки Отправить программа формирует письмо, отправляет его пользователю</li>
+  <li>Перейдя на сайт http://127.0.0.1:5000/forgot необходимо ввести адрес электронной почты. Затем программа проверит наличия адреса электронной почты в базе данных. После нажатия кнопки Отправить программа формирует письмо, отправляет его пользователю</li>
   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/hP4MrQqb/2024-07-10-22-53-54.png' border='0' alt='2024-07-10-22-53-54'/></a>
-  <li>Перейдя на сайт "http:localhost:8080/calculate/{email}?email={email}", куда вместо {email} программа подставляет адрес электронной почты человека, можно написать выражение для вычисления. После нажатия кноки "Отправить" программа добавить выражение в базу данных.</li>
+  <li>Перейдя на сайт http://localhost:8080/user/{email}?email={email}, вместо {email} программа подставляет реальнный адрес электронной почты. Профиль пользователя:</li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Y2y75Cc6/2024-07-11-11-29-21.png' border='0' alt='2024-07-11-11-29-21'/></a>
+  <li>Перейдя на сайт(или нажав на кнопку "Ввести выражение") http:localhost:8080/calculate/{email}?email={email}, куда вместо {email} программа подставляет адрес электронной почты человека, можно написать выражение для вычисления. После нажатия кноки "Отправить" программа добавить выражение в базу данных.</li>
   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/vTmvD1vL/2024-07-11-10-24-08.png' border='0' alt='2024-07-11-10-24-08'/></a>
+  <li>Перейдя на сайт(или нажав на кнопку "Проверить результаты") http:localhost:8080/rezults/{email}?email={email}, вместо {email} программа подставляет реальнный адрес электронной почты. На странице можно проверить результаты выражений введенных пользователем:</li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PqB3W908/2024-07-11-11-38-04.png' border='0' alt='2024-07-11-11-38-04'/></a>
 </ol>
