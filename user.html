@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+                background-color: #f3f3f3;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+        }
+
+        .container {
+            margin: 20px;
+        }
+        button[type="submit"] {
+                padding: 15px;
+                border-radius: 10px;
+                border: none;
+                background-color: #49e5fa;
+                color: white;
+                cursor: pointer;
+                width: 100%;
+                font-size: 16px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Profile</h1>
+        <p>Email: {{.Email}}</p>
+        <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/DyXnvV1J/Profile.png' border='0' alt='Profile'/></a>
+        <form action="http://localhost:8080/calculate/{{.Email}}?email={{.Email}}" method="post">
+            <button type="submit">Ввести выражение</button>
+        </form>
+        <br></br>
+        <form action="http://localhost:8080/rezults/{{.Email}}?email={{.Email}}" method="post">
+            <button type="submit">Проверить результаты</button>
+        </form>
+    </div>
+</body>
+</html>
