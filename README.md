@@ -17,6 +17,26 @@
     <li><a href="#section3">Техническое описание проекта</a></li>
     <li><a href="#section4">Инструкция по настройке и запуску проекта</a></li>
     <li><a href="#section5">Реализация проекта через сайт</a></li>
+    <ul>
+      <li><a href="#section15">Registration Form</a></li>
+      <li><a href="#section16">Login Form</a></li>
+      <li><a href="#section17">Forgot the JWT</a></li>
+      <li><a href="#section18">User Profile</a></li>
+      <li><a href="#section19">Data entry Form</a></li>
+      <li><a href="#section20">Results</a></li>
+    </ul>
+    <li><a href="#section11">Реализация проекта через командную строку</a></li>
+    <ul>
+      <li><a href="#section12">Регистрация пользователя в системе</a></li>
+      <ul>
+        <li><a href="#section13">Успешная регистрация</a></li>
+        <li><a href="#section14">Ошибка при регистрации</a></li>
+        <ul>
+          <li><a href="#section21">Логин уже существует</a></li>
+          <li><a href="#section22">Введены пустые данные</a></li>
+        </ul>
+      </ul>
+    </ul>
   </ol>
 </nav>
 <br></br>
@@ -79,19 +99,47 @@
 <br></br>
 <h1 id="section5">Реализация проекта через сайт</h1>
 <h4>Перед началом проекта рекомендуется запустить register.go через Visual Studio Code и forgot.py через PyCharm.</h4>
+<h1 id="section15">Registration Form</h1>
+<h4>Перейдите на сайт http://localhost:8080/register если Вы впервые заходите на сайт:</h4>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/rpTkn9yY/2024-07-10-22-40-52.png' border='0' alt='2024-07-10-22-40-52'/></a>
+<h4>Введите адрес электронной почты, пароль, повторите пароль. После регистрации будет выведен JWT Token, а также дальнейшая инструкция</h4>
+<h1 id="section16">Login Form</h1>
+<h4>Перейдите на сайт http://localhost:8080/login если у Вас уже есть JWT Token:</h4>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Z5Sb2mVc/2024-07-10-22-47-16.png' border='0' alt='2024-07-10-22-47-16'/></a>
+<h4>Введите JWT Token для входа в систему. Также можно создать аккаунт, если у Вас нет аккаунта; восстановить JWT Token</h4>
+<h1 id="section17">Forgot the JWT</h1>
+<h4>Перейдя на сайт http://127.0.0.1:5000/forgot необходимо ввести адрес электронной почты. Затем программа проверит наличия адреса электронной почты в базе данных. После нажатия кнопки Отправить программа формирует письмо, отправляет его пользователю</h4>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/hP4MrQqb/2024-07-10-22-53-54.png' border='0' alt='2024-07-10-22-53-54'/></a>
+<h1 id="section18">User Profile</h1>
+<h4>Перейдя на сайт http://localhost:8080/user/{email}?email={email}, вместо {email} программа подставляет реальнный адрес электронной почты. Профиль пользователя:</h4>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Y2y75Cc6/2024-07-11-11-29-21.png' border='0' alt='2024-07-11-11-29-21'/></a>
+<h1 id="section19">Data entry Form</h1>
+<h4>Перейдя на сайт(или нажав на кнопку "Ввести выражение") http:localhost:8080/calculate/{email}?email={email}, куда вместо {email} программа подставляет адрес электронной почты человека, можно написать выражение для вычисления. После нажатия кноки "Отправить" программа добавить выражение в базу данных.</h4>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/vTmvD1vL/2024-07-11-10-24-08.png' border='0' alt='2024-07-11-10-24-08'/></a>
+<h1 id="section20">Results</h1>
+<h4>Перейдя на сайт(или нажав на кнопку "Проверить результаты") http:localhost:8080/rezults/{email}?email={email}, вместо {email} программа подставляет реальнный адрес электронной почты. На странице можно проверить результаты выражений введенных пользователем:</h4>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PqB3W908/2024-07-11-11-38-04.png' border='0' alt='2024-07-11-11-38-04'/></a>
+<br></br>
+<h1 id="section11">Реализация проекта через командную строку</h1>
+<h1 id="section12">Регистрация пользователя</h1>
+<h1 id="section13">Успешная регистрация</h1>
+<h4>Для запуска запустите терминал. Для примера использовался Windows PowerShell</h4>
 <ol>
-  <li>Перейдите на сайт http://localhost:8080/register если Вы впервые заходите на сайт:</li>
-  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/rpTkn9yY/2024-07-10-22-40-52.png' border='0' alt='2024-07-10-22-40-52'/></a>
-  <h4>Введите адрес электронной почты, пароль, повторите пароль. После регистрации будет выведен JWT Token, а также дальнейшая инструкция</h4>
-  <li>Перейдите на сайт http://localhost:8080/login если у Вас уже есть JWT Token:</li>
-  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Z5Sb2mVc/2024-07-10-22-47-16.png' border='0' alt='2024-07-10-22-47-16'/></a>
-  <h4>Введите JWT Token для входа в систему. Также можно создать аккаунт, если у Вас нет аккаунта; восстановить JWT Token</h4>
-  <li>Перейдя на сайт http://127.0.0.1:5000/forgot необходимо ввести адрес электронной почты. Затем программа проверит наличия адреса электронной почты в базе данных. После нажатия кнопки Отправить программа формирует письмо, отправляет его пользователю</li>
-  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/hP4MrQqb/2024-07-10-22-53-54.png' border='0' alt='2024-07-10-22-53-54'/></a>
-  <li>Перейдя на сайт http://localhost:8080/user/{email}?email={email}, вместо {email} программа подставляет реальнный адрес электронной почты. Профиль пользователя:</li>
-  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Y2y75Cc6/2024-07-11-11-29-21.png' border='0' alt='2024-07-11-11-29-21'/></a>
-  <li>Перейдя на сайт(или нажав на кнопку "Ввести выражение") http:localhost:8080/calculate/{email}?email={email}, куда вместо {email} программа подставляет адрес электронной почты человека, можно написать выражение для вычисления. После нажатия кноки "Отправить" программа добавить выражение в базу данных.</li>
-  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/vTmvD1vL/2024-07-11-10-24-08.png' border='0' alt='2024-07-11-10-24-08'/></a>
-  <li>Перейдя на сайт(или нажав на кнопку "Проверить результаты") http:localhost:8080/rezults/{email}?email={email}, вместо {email} программа подставляет реальнный адрес электронной почты. На странице можно проверить результаты выражений введенных пользователем:</li>
-  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PqB3W908/2024-07-11-11-38-04.png' border='0' alt='2024-07-11-11-38-04'/></a>
+  <li><h4>Заголовки. Функция, задающая контент-тип для тела запроса как application/json</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7ZsmD9rh/2024-07-11-15-36-36.png' border='0' alt='2024-07-11-15-36-36'/></a>
+  <li><h4>Тело запроса. Здесь Вы задаете JSON содержимое для тела запроса, представляющее собой логин и пароль пользователя</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/43FMT4hQ/2024-07-11-15-41-24.png' border='0' alt='2024-07-11-15-41-24'/></a>
+  <li><h4>Преобразование в JSON. При помощи ConvertTo-Json тело запроса преобразуется в JSON строку.</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PJMQTKRn/2024-07-11-15-46-23.png' border='0' alt='2024-07-11-15-46-23'/></a>
+  <li><h4>Выполнение запроса. Invoke-WebRequest выполняет POST-запрос с указанными заголовками и телом.</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/pL3zNgLn/2024-07-11-15-49-00.png' border='0' alt='2024-07-11-15-49-00'/></a>
+  <li><h4>Вывод ответа. Вывод содержимого ответа на экране</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NMDK0VBD/2024-07-11-15-50-52.png' border='0' alt='2024-07-11-15-50-52'/></a><br /><a href='https://postimages.org/ru/'></a><br />
 </ol>
+<h4>В результате нам вышло сообщение об успешной регистрации:</h4>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/G2tCkSvq/2024-07-11-15-50-35.png' border='0' alt='2024-07-11-15-50-35'/></a>
+<h1 id="section14">Ошибка при регистрации</h1>
+<h1 id="section21">Логин уже существует</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Gpb87w5s/2024-07-11-15-54-34.png' border='0' alt='2024-07-11-15-54-34'/></a>
+<h1 id="section22">Введены пустые данные</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PxTB4VZB/2024-07-11-16-14-42.png' border='0' alt='2024-07-11-16-14-42'/></a>
