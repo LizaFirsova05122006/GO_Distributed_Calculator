@@ -15,7 +15,7 @@
         <li><a href="#section31">github.com/Knetic/govaluate</a></li>
       </ul>
       <li><a href="#section24">Установка компилятора GCC</a></li>
-      <li><a href"#section25">Добавление переменных в launch.json</a></li>
+      <li><a href="#section25">Добавление переменных в launch.json</a></li>
     </ul>
     <li><a href="#section7">Использованные технологии</a></li>
     <ul>
@@ -74,7 +74,7 @@
  <li>Запомнить папку, куда установилось</li>
 </ul>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/T18wyXGN/2024-07-10-08-34-29.png' border='0' alt='2024-07-10-08-34-29'/></a>
-<h1 id="section25">Добавление переменых в launch.json</h1>
+<h1 id="section25">Добавление переменных в launch.json</h1>
 <h4>3) В VS Code открыть Run and Debug и создать файл launch.json:</h4>
 <ul>
   <li>Добавить переменную CGO_ENABLED=1</li>
