@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Results</title>
+        <style>
+            table {
+                width: 50%;
+                border-collapse: collapse;
+                margin: 50px 0;
+                font-size: 18px;
+                text-align: left;
+            }
+            th, td {
+                padding: 12px;
+                border-bottom: 1px solid #ddd;
+            }
+            th {
+                background-color: #49e5fa;
+            }
+            tr:nth-child(even) {
+                background-color: #fdffff;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Results for {{.Email}}</h1>
+        <table>
+            <tr>
+                <th>Expression</th>
+                <th>Result</th>
+            </tr>
+            {{ range .Expressions }}
+            <tr>
+                <td>{{.Expression}}</td>
+                <td>{{.Result}}</td>
+            </tr>
+            {{ end }}
+        </table>
+    </body>
+    </html>
