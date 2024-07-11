@@ -4,6 +4,19 @@
   <h2>Содержание</h2>
   <ol>
     <li><a href="#section1">Подготовка к запуску проекта</a></li>
+    <ul>
+      <li><a href="#section23">Установка дополнительных библиотек</a></li>
+      <ul>
+        <li><a href="#section26">github.com/mattn/go-sqlite3</a></li>
+        <li><a href="#section27">github.com/jinzhu/gorm</a></li>
+        <li><a href="#section28">github.com/gin-gonic/gin</a></li>
+        <li><a href="#section29">github.com/dgrijalva/jwt-go</a></li>
+        <li><a href="#section30">github.com/gorilla/mux</a></li>
+        <li><a href="#section31">github.com/Knetic/govaluate</a></li>
+      </ul>
+      <li><a href="#section24">Установка компилятора GCC</a></li>
+      <li><a href"#section25">Добавление переменных в launch.json</a></li>
+    </ul>
     <li><a href="#section7">Использованные технологии</a></li>
     <ul>
       <li><a href="#section2">Яндекс Почта</a></li>
@@ -41,24 +54,33 @@
 </nav>
 <br></br>
 <h1 id="section1">Подготовка к запуску проекта</h1>
-<h4>1) Перед началом необходимо установить "github.com/mattn/go-sqlite3". Для этого откроем Терминал:</h4>
+<h1 id="section23">Установка дополнительных библиотек</h1>
+<h1 id="section26">github.com/mattn/go-sqlite3</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/DZRhCQMS/2024-07-10-08-28-11.png' border='0' alt='2024-07-10-08-28-11'/></a>
-<h4>2) Также необходимо установить компилятор GCC с сайта <a href="https://jmeubank.github.io/tdm-gcc/">Tdm-gcc</a>:</h4>
+<h1 id="section27">github.com/jinzhu/gorm</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/qq5JWHxt/2024-07-11-16-22-03.png' border='0' alt='2024-07-11-16-22-03'/></a>
+<h1 id="section28">github.com/gin-gonic/gin</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W4v2Bng7/2024-07-11-16-22-34.png' border='0' alt='2024-07-11-16-22-34'/></a>
+<h1 id="section29">github.com/golang-jwt/jwt/v5</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7LqGnzC1/2024-07-10-10-51-54.png' border='0' alt='2024-07-10-10-51-54'/></a>
+<h1 id="section30">github.com/gorilla/mux</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/wjhzQmZR/2024-07-11-16-39-17.png' border='0' alt='2024-07-11-16-39-17'/></a>
+<h1 id="section31">github.com/Knetic/govaluate</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/5N8wbdL2/2024-07-11-11-25-39.png' border='0' alt='2024-07-11-11-25-39'/></a>
+<h1 id="section24">Установка компилятора GCC</h1>
+<h4>Необходимо установить компилятор GCC с сайта <a href="https://jmeubank.github.io/tdm-gcc/">Tdm-gcc</a>:</h4>
 <ul>
  <li>Нажать кнопку Create и соглашаться со всем</li>
  <li>Запомнить папку, куда установилось</li>
 </ul>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/T18wyXGN/2024-07-10-08-34-29.png' border='0' alt='2024-07-10-08-34-29'/></a>
+<h1 id="section25">Добавление переменых в launch.json</h1>
 <h4>3) В VS Code открыть Run and Debug и создать файл launch.json:</h4>
 <ul>
   <li>Добавить переменную CGO_ENABLED=1</li>
   <li>В перменную Path добавить путь до gcc.exe</li>
 </ul>  
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/vH0skdkR/2024-07-10-08-41-32.png' border='0' alt='2024-07-10-08-41-32'/></a>
-<h4>4) Необходимо в командной строке написать: "go get -u github.com/golang-jwt/jwt/v5" для установки библиотеки:</h4>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7LqGnzC1/2024-07-10-10-51-54.png' border='0' alt='2024-07-10-10-51-54'/></a>
-<h4>5)Установить библиотеку при помощи команды: "go get github.com/Knetic/govaluate":</h4>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/5N8wbdL2/2024-07-11-11-25-39.png' border='0' alt='2024-07-11-11-25-39'/></a>
 <br></br>
 <h1 id="section7">Использованные технологии</h1>
 <h1 id="section2">Яндекс Почта</h1>
