@@ -43,10 +43,16 @@
       <li><a href="#section12">Регистрация пользователя в системе</a></li>
       <ul>
         <li><a href="#section13">Успешная регистрация</a></li>
-        <li><a href="#section14">Ошибка при регистрации</a></li>
+        <li><a href="#section14">Ошибки при регистрации</a></li>
         <ul>
           <li><a href="#section21">Логин уже существует</a></li>
           <li><a href="#section22">Введены пустые данные</a></li>
+        </ul>
+        <li><a href="#section32">Успешный вход</a></li>
+        <li><a href="#section33">Ошибки при входе</a></li>
+        <ul>
+          <li><a href="#section34">Неверные логин или пароль</a></li>
+          <li><a href="#section35">Введены пустые данные</a></li>
         </ul>
       </ul>
     </ul>
@@ -160,8 +166,28 @@
 </ol>
 <h4>В результате нам вышло сообщение об успешной регистрации:</h4>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/JnnPM0RW/2024-07-14-19-15-46.png' border='0' alt='2024-07-14-19-15-46'/></a>
-<h1 id="section14">Ошибка при регистрации</h1>
+<h1 id="section14">Ошибки при регистрации</h1>
 <h1 id="section21">Логин уже существует</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FRqNGt7j/2024-07-14-17-08-31.png' border='0' alt='2024-07-14-17-08-31'/></a>
 <h1 id="section22">Введены пустые данные</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Y2GW7MfB/2024-07-14-17-09-35.png' border='0' alt='2024-07-14-17-09-35'/></a>
+<h1 id="section32">Успешный вход</h1>
+<ol>
+  <li><h4>Заголовки. Функция, задающая контент-тип для тела запроса как application/json</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7ZsmD9rh/2024-07-11-15-36-36.png' border='0' alt='2024-07-11-15-36-36'/></a>
+  <li><h4>Тело запроса. Здесь Вы задаете JSON содержимое для тела запроса, представляющее собой логин и пароль пользователя</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/2jTLnGdT/2024-07-14-19-19-11.png' border='0' alt='2024-07-14-19-19-11'/></a>
+  <li><h4>Преобразование в JSON. При помощи ConvertTo-Json тело запроса преобразуется в JSON строку.</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PJMQTKRn/2024-07-11-15-46-23.png' border='0' alt='2024-07-11-15-46-23'/></a>
+  <li><h4>Выполнение запроса. Invoke-WebRequest выполняет POST-запрос с указанными заголовками и телом.</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/05H28B0g/2024-07-14-19-20-04.png' border='0' alt='2024-07-14-19-20-04'/></a>
+  <li><h4>Вывод ответа. Вывод содержимого ответа на экране</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NMDK0VBD/2024-07-11-15-50-52.png' border='0' alt='2024-07-11-15-50-52'/></a>
+</ol>
+<h4>В результате нам вышло сообщение об успешной регистрации:</h4>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/nLkpNRhP/2024-07-14-19-21-01.png' border='0' alt='2024-07-14-19-21-01'/></a>
+<h1 id="section33">Ошибки при регистрации</h1>
+<h1 id="section34">Неверные логин или пароль</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/y8KN5STW/2024-07-14-19-24-18.png' border='0' alt='2024-07-14-19-24-18'/></a>
+<h1 id="section35">Введены пустые данные</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/vZPdz1qJ/2024-07-14-19-25-29.png' border='0' alt='2024-07-14-19-25-29'/></a>
