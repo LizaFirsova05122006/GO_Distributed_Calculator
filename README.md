@@ -58,6 +58,7 @@
           <li><a href="#section34">Неверные логин или пароль</a></li>
           <li><a href="#section35">Введены пустые данные</a></li>
        </ul>
+      </ul>
     <li><a href="#section38">Ввод выражений пользователем</a></li>
       <ul>
         <li><a href="#section39">Успешный ввод</a></li>
@@ -66,7 +67,6 @@
           <li><a href="#section41">Неверный логин</a></li>
           <li><a href="#section42">Невалидные данные</a></li>
        </ul>
-    </ul>
     </ul>
   </ol>
 </nav>
