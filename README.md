@@ -68,6 +68,15 @@
           <li><a href="#section42">Невалидные данные</a></li>
        </ul>
     </ul>
+    <li><a href="#section43">Получение результатов</a></li>
+      <ul>
+        <li><a href="#section44">Успешное получение результатов</a></li>
+        <li><a href="#section45">Ошибки при получении результатов</a></li>
+        <ul>
+          <li><a href="#section46">Пользователь не вводил еще выражений</a></li>
+          <li><a href="#section47">Пустые данные</a></li>
+       </ul>
+    </ul>
   </ol>
 </nav>
 <br></br>
@@ -227,3 +236,24 @@
 <a href="https://imageup.ru/img109/4862667/2024-07-14_20-11-53.png.html" target="_blank"><img src="https://imageup.ru/img109/4862667/2024-07-14_20-11-53.png" border="0" alt="хостинг для хранения фотографий"></a>
 <h1 id="section41">Невалидные данные</h1>
 <a href="https://imageup.ru/img206/4862671/2024-07-14_20-18-14.png.html" target="_blank"><img src="https://imageup.ru/img206/4862671/2024-07-14_20-18-14.png" border="0" alt="Хостинг картинок"></a>
+<h1 id="section43">Получение результатов</h1>
+<h1 id="section44">Успешное получение результатов</h1>
+<ol>
+  <li><h4>Заголовки. Функция, задающая контент-тип для тела запроса как application/json</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7ZsmD9rh/2024-07-11-15-36-36.png' border='0' alt='2024-07-11-15-36-36'/></a>
+  <li><h4>Тело запроса. Здесь Вы задаете JSON содержимое для тела запроса, представляющее собой логин и пароль пользователя</h4></li>
+  <a href="https://imageup.ru/img290/4862694/2024-07-14_20-41-57.png.html" target="_blank"><img src="https://imageup.ru/img290/4862694/2024-07-14_20-41-57.png" border="0" alt="хостинг для картинок с прямой ссылкой"></a>
+  <li><h4>Преобразование в JSON. При помощи ConvertTo-Json тело запроса преобразуется в JSON строку.</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PJMQTKRn/2024-07-11-15-46-23.png' border='0' alt='2024-07-11-15-46-23'/></a>
+  <li><h4>Выполнение запроса. Invoke-WebRequest выполняет POST-запрос с указанными заголовками и телом.</h4></li>
+  <a href="https://imageup.ru/img54/4862700/2024-07-14_20-49-47.png.html" target="_blank"><img src="https://imageup.ru/img54/4862700/2024-07-14_20-49-47.png" border="0" alt="бесплатный хостинг фотографий"></a>
+  <li><h4>Вывод ответа. Вывод содержимого ответа на экране</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NMDK0VBD/2024-07-11-15-50-52.png' border='0' alt='2024-07-11-15-50-52'/></a>
+</ol>
+<h4>В результате нам вышло сообщение об успешной регистрации:</h4>
+<a href="https://imageup.ru/img252/4862703/2024-07-14_20-50-57.png.html" target="_blank"><img src="https://imageup.ru/img252/4862703/2024-07-14_20-50-57.png" border="0" alt="Imageup.ru - хостинг для изображений"></a>
+<h1 id="section45">Ошибки при получении результатов</h1>
+<h1 id="section46">Пользователь не вводил еще выражений</h1>
+<a href="https://imageup.ru/img268/4862706/2024-07-14_20-52-13.png.html" target="_blank"><img src="https://imageup.ru/img268/4862706/2024-07-14_20-52-13.png" border="0" alt="бесплатный хостинг фото"></a>
+<h1 id="section47">Пустые данные</h1>
+<a href="https://imageup.ru/img84/4862707/2024-07-14_20-54-31.png.html" target="_blank"><img src="https://imageup.ru/img84/4862707/2024-07-14_20-54-31.png" border="0" alt="хостинг для хранения изображений"></a>
