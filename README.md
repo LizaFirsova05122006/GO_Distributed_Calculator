@@ -83,13 +83,13 @@
 <h1 id="section1">Подготовка к запуску проекта</h1>
 <h1 id="section23">Установка дополнительных библиотек</h1>
 <h1 id="section26">github.com/mattn/go-sqlite3</h1>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/DZRhCQMS/2024-07-10-08-28-11.png' border='0' alt='2024-07-10-08-28-11'/></a>
+<a href="https://imageup.ru/img60/4862741/2024-07-14_21-33-34.png.html" target="_blank"><img src="https://imageup.ru/img60/4862741/2024-07-14_21-33-34.png" border="0" alt="Хостинг картинок для сайта"></a>
 <h1 id="section27">github.com/jinzhu/gorm</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/qq5JWHxt/2024-07-11-16-22-03.png' border='0' alt='2024-07-11-16-22-03'/></a>
 <h1 id="section28">github.com/gin-gonic/gin</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/W4v2Bng7/2024-07-11-16-22-34.png' border='0' alt='2024-07-11-16-22-34'/></a>
 <h1 id="section29">github.com/golang-jwt/jwt/v5</h1>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7LqGnzC1/2024-07-10-10-51-54.png' border='0' alt='2024-07-10-10-51-54'/></a>
+<a href="https://imageup.ru/img64/4862742/2024-07-14_21-34-24.png.html" target="_blank"><img src="https://imageup.ru/img64/4862742/2024-07-14_21-34-24.png" border="0" alt="сервис публикации фотографий"></a>
 <h1 id="section30">github.com/gorilla/mux</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/wjhzQmZR/2024-07-11-16-39-17.png' border='0' alt='2024-07-11-16-39-17'/></a>
 <h1 id="section31">github.com/Knetic/govaluate</h1>
