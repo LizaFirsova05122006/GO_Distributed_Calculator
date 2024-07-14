@@ -150,18 +150,18 @@
   <li><h4>Заголовки. Функция, задающая контент-тип для тела запроса как application/json</h4></li>
   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7ZsmD9rh/2024-07-11-15-36-36.png' border='0' alt='2024-07-11-15-36-36'/></a>
   <li><h4>Тело запроса. Здесь Вы задаете JSON содержимое для тела запроса, представляющее собой логин и пароль пользователя</h4></li>
-  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/43FMT4hQ/2024-07-11-15-41-24.png' border='0' alt='2024-07-11-15-41-24'/></a>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/pTdLqYkt/2024-07-14-17-05-10.png' border='0' alt='2024-07-14-17-05-10'/></a>
   <li><h4>Преобразование в JSON. При помощи ConvertTo-Json тело запроса преобразуется в JSON строку.</h4></li>
   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PJMQTKRn/2024-07-11-15-46-23.png' border='0' alt='2024-07-11-15-46-23'/></a>
   <li><h4>Выполнение запроса. Invoke-WebRequest выполняет POST-запрос с указанными заголовками и телом.</h4></li>
   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/pL3zNgLn/2024-07-11-15-49-00.png' border='0' alt='2024-07-11-15-49-00'/></a>
   <li><h4>Вывод ответа. Вывод содержимого ответа на экране</h4></li>
-  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NMDK0VBD/2024-07-11-15-50-52.png' border='0' alt='2024-07-11-15-50-52'/></a><br /><a href='https://postimages.org/ru/'></a><br />
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NMDK0VBD/2024-07-11-15-50-52.png' border='0' alt='2024-07-11-15-50-52'/></a>
 </ol>
 <h4>В результате нам вышло сообщение об успешной регистрации:</h4>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/G2tCkSvq/2024-07-11-15-50-35.png' border='0' alt='2024-07-11-15-50-35'/></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/8zBkGn0S/2024-07-14-17-06-57.png' border='0' alt='2024-07-14-17-06-57'/></a>
 <h1 id="section14">Ошибка при регистрации</h1>
 <h1 id="section21">Логин уже существует</h1>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Gpb87w5s/2024-07-11-15-54-34.png' border='0' alt='2024-07-11-15-54-34'/></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FRqNGt7j/2024-07-14-17-08-31.png' border='0' alt='2024-07-14-17-08-31'/></a>
 <h1 id="section22">Введены пустые данные</h1>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PxTB4VZB/2024-07-11-16-14-42.png' border='0' alt='2024-07-11-16-14-42'/></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Y2GW7MfB/2024-07-14-17-09-35.png' border='0' alt='2024-07-14-17-09-35'/></a>
