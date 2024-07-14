@@ -58,6 +58,14 @@
           <li><a href="#section34">Неверные логин или пароль</a></li>
           <li><a href="#section35">Введены пустые данные</a></li>
        </ul>
+    <li><a href="#section38">Ввод выражений пользователем</a></li>
+      <ul>
+        <li><a href="#section39">Успешный ввод</a></li>
+        <li><a href="#section40">Ошибки ввода выражений</a></li>
+        <ul>
+          <li><a href="#section41">Неверный логин</a></li>
+          <li><a href="#section42">Невалидные данные</a></li>
+       </ul>
     </ul>
     </ul>
   </ol>
@@ -191,10 +199,31 @@
   <li><h4>Вывод ответа. Вывод содержимого ответа на экране</h4></li>
   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NMDK0VBD/2024-07-11-15-50-52.png' border='0' alt='2024-07-11-15-50-52'/></a>
 </ol>
-<h4>В результате нам вышло сообщение об успешной регистрации:</h4>
+<h4>В результате нам вышло сообщение об успешном входе:</h4>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/nLkpNRhP/2024-07-14-19-21-01.png' border='0' alt='2024-07-14-19-21-01'/></a>
 <h1 id="section33">Ошибки при входе</h1>
 <h1 id="section34">Неверные логин или пароль</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/y8KN5STW/2024-07-14-19-24-18.png' border='0' alt='2024-07-14-19-24-18'/></a>
 <h1 id="section35">Введены пустые данные</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/vZPdz1qJ/2024-07-14-19-25-29.png' border='0' alt='2024-07-14-19-25-29'/></a>
+<h1 id="section38">Ввод выражений пользователем</h1>
+<h1 id="section32">Успешный ввод</h1>
+<ol>
+  <li><h4>Заголовки. Функция, задающая контент-тип для тела запроса как application/json</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7ZsmD9rh/2024-07-11-15-36-36.png' border='0' alt='2024-07-11-15-36-36'/></a>
+  <li><h4>Тело запроса. Здесь Вы задаете JSON содержимое для тела запроса, представляющее собой логин и пароль пользователя</h4></li>
+  <a href="https://imageup.ru/img125/4862659/2024-07-14_20-03-45.png.html" target="_blank"><img src="https://imageup.ru/img125/4862659/2024-07-14_20-03-45.png" border="0" alt="Фотохостинг бесплатный и без регистрации"></a>
+  <li><h4>Преобразование в JSON. При помощи ConvertTo-Json тело запроса преобразуется в JSON строку.</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PJMQTKRn/2024-07-11-15-46-23.png' border='0' alt='2024-07-11-15-46-23'/></a>
+  <li><h4>Выполнение запроса. Invoke-WebRequest выполняет POST-запрос с указанными заголовками и телом.</h4></li>
+  <a href="https://imageup.ru/img279/4862661/2024-07-14_20-09-12.png.html" target="_blank"><img src="https://imageup.ru/img279/4862661/2024-07-14_20-09-12.png" border="0" alt="Хостинг для хранения фотографий"></a>
+  <li><h4>Вывод ответа. Вывод содержимого ответа на экране</h4></li>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NMDK0VBD/2024-07-11-15-50-52.png' border='0' alt='2024-07-11-15-50-52'/></a>
+</ol>
+<h4>В результате нам вышло сообщение об успешной регистрации:</h4>
+<a href="https://imageup.ru/img97/4862665/2024-07-14_20-09-53.png.html" target="_blank"><img src="https://imageup.ru/img97/4862665/2024-07-14_20-09-53.png" border="0" alt="сервис хранения изображений"></a>
+<h1 id="section40">Ошибки ввода выражений</h1>
+<h1 id="section41">Неверные логин</h1>
+<a href="https://imageup.ru/img109/4862667/2024-07-14_20-11-53.png.html" target="_blank"><img src="https://imageup.ru/img109/4862667/2024-07-14_20-11-53.png" border="0" alt="хостинг для хранения фотографий"></a>
+<h1 id="section41">Невалидные данные</h1>
+<a href="https://imageup.ru/img206/4862671/2024-07-14_20-18-14.png.html" target="_blank"><img src="https://imageup.ru/img206/4862671/2024-07-14_20-18-14.png" border="0" alt="Хостинг картинок"></a>
