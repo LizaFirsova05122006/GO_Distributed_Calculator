@@ -159,7 +159,7 @@
   <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/NMDK0VBD/2024-07-11-15-50-52.png' border='0' alt='2024-07-11-15-50-52'/></a>
 </ol>
 <h4>В результате нам вышло сообщение об успешной регистрации:</h4>
-<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/8zBkGn0S/2024-07-14-17-06-57.png' border='0' alt='2024-07-14-17-06-57'/></a>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/JnnPM0RW/2024-07-14-19-15-46.png' border='0' alt='2024-07-14-19-15-46'/></a>
 <h1 id="section14">Ошибка при регистрации</h1>
 <h1 id="section21">Логин уже существует</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FRqNGt7j/2024-07-14-17-08-31.png' border='0' alt='2024-07-14-17-08-31'/></a>
