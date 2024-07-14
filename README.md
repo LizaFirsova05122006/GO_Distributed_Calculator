@@ -48,13 +48,16 @@
           <li><a href="#section21">Логин уже существует</a></li>
           <li><a href="#section22">Введены пустые данные</a></li>
         </ul>
+     </ul>
+    <li><a href="#section36">Вход пользователя в систему</a></li>
+      <ul>
         <li><a href="#section32">Успешный вход</a></li>
         <li><a href="#section33">Ошибки при входе</a></li>
         <ul>
           <li><a href="#section34">Неверные логин или пароль</a></li>
           <li><a href="#section35">Введены пустые данные</a></li>
-        </ul>
-      </ul>
+       </ul>
+    </ul>
     </ul>
   </ol>
 </nav>
@@ -149,7 +152,7 @@
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/PqB3W908/2024-07-11-11-38-04.png' border='0' alt='2024-07-11-11-38-04'/></a>
 <br></br>
 <h1 id="section11">Реализация проекта через командную строку</h1>
-<h1 id="section12">Регистрация пользователя</h1>
+<h1 id="section12">Регистрация пользователя в системе</h1>
 <h1 id="section13">Успешная регистрация</h1>
 <h4>Для запуска запустите терминал. Для примера использовался Windows PowerShell</h4>
 <ol>
@@ -171,6 +174,7 @@
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/FRqNGt7j/2024-07-14-17-08-31.png' border='0' alt='2024-07-14-17-08-31'/></a>
 <h1 id="section22">Введены пустые данные</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Y2GW7MfB/2024-07-14-17-09-35.png' border='0' alt='2024-07-14-17-09-35'/></a>
+<h1 id="section36">Вход пользователя в систему</h1>
 <h1 id="section32">Успешный вход</h1>
 <ol>
   <li><h4>Заголовки. Функция, задающая контент-тип для тела запроса как application/json</h4></li>
@@ -186,7 +190,7 @@
 </ol>
 <h4>В результате нам вышло сообщение об успешной регистрации:</h4>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/nLkpNRhP/2024-07-14-19-21-01.png' border='0' alt='2024-07-14-19-21-01'/></a>
-<h1 id="section33">Ошибки при регистрации</h1>
+<h1 id="section33">Ошибки при входе</h1>
 <h1 id="section34">Неверные логин или пароль</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/y8KN5STW/2024-07-14-19-24-18.png' border='0' alt='2024-07-14-19-24-18'/></a>
 <h1 id="section35">Введены пустые данные</h1>
