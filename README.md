@@ -13,6 +13,7 @@
         <li><a href="#section29">github.com/dgrijalva/jwt-go</a></li>
         <li><a href="#section30">github.com/gorilla/mux</a></li>
         <li><a href="#section31">github.com/Knetic/govaluate</a></li>
+        <li><a href="#section37">requirements.txt</a></li>
       </ul>
       <li><a href="#section24">Установка компилятора GCC</a></li>
       <li><a href="#section25">Добавление переменных в launch.json</a></li>
@@ -76,6 +77,8 @@
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/wjhzQmZR/2024-07-11-16-39-17.png' border='0' alt='2024-07-11-16-39-17'/></a>
 <h1 id="section31">github.com/Knetic/govaluate</h1>
 <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/5N8wbdL2/2024-07-11-11-25-39.png' border='0' alt='2024-07-11-11-25-39'/></a>
+<h1 id="section37">requirements.txt</h1>
+<a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/50SgBzpv/2024-07-14-19-35-57.png' border='0' alt='2024-07-14-19-35-57'/></a>
 <h1 id="section24">Установка компилятора GCC</h1>
 <h4>Необходимо установить компилятор GCC с сайта <a href="https://jmeubank.github.io/tdm-gcc/">Tdm-gcc</a>:</h4>
 <ul>
